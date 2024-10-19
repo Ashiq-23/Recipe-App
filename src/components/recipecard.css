@@ -1,0 +1,30 @@
+.recipe-card {
+  background-color: white; /* Set the background to white */
+  border-radius: 10px;      /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for better visibility */
+  padding: 20px;            /* Add some padding inside the card */
+  margin: 20px;             /* Add space between the cards */
+  max-width: 300px;         /* Control the width of the card */
+  text-align: center;       /* Center align text */
+}
+
+.recipe-card img {
+  width: 100%;              /* Ensure the image fits within the card */
+  height: auto;             /* Maintain aspect ratio */
+  border-radius: 5px;       /* Optional: Add slight rounding to the image corners */
+}
+
+.recipe-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.recipe-card a {
+  display: block;
+  margin-top: 10px;
+  background-color: #f03613;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
